@@ -1,0 +1,18 @@
+<div class="health">
+    <h1>{{ 'DOCTOR_SEARCH' | translate }}</h1>
+
+    <p>{{ 'WHAT' | translate }}: <select ng-model="type" ng-options="key as value for (key , value) in types">
+    </select> {{ 'AND' | translate }} <br>
+      {{ 'WHERE' | translate }}: <input ng-model="where"
+                      placeholder="e.g. 台北市"></p>
+
+
+    <p ng-if="(doctors | filter:isResult).length > 0">
+      {{ 'RESULT_LIST' | translate }}:
+    <ul>
+        <li ng-repeat="doctor in doctors | filter:isResult">
+            <a href="#/doctors/{{doctor.$id}}" class="thumb">{{doctor.name}}</a></li>
+    </ul>
+      {{ 'HAVENT_FOUND' | translate }} <a href="#/addDoctor">{{ 'ADD_DOCTOR' | translate }}</a>
+    </p>
+</div>

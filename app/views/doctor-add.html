@@ -1,0 +1,17 @@
+<div class="health">
+    <p><a href="#/doctors">{{ 'GO_BACK' | translate }}</a></p>
+    <p><b>{{ 'CHINESE_ADDRESS' | translate }}</b></p>
+
+    <p>{{ 'NAME' | translate }}: <input ng-model="name" placeholder="e.g. 美生牙醫診所"></p>
+
+    <p>{{ 'TYPE' | translate }}: <select ng-model="type" ng-model="type" ng-options="key as value for (key , value) in types">
+    </select></p>
+
+    <p>{{ 'STREET' | translate }}: <input ng-model="street" placeholder="e.g. 松山區敦化南路一段21號"></p>
+    <p>{{ 'POSTAL_CODE' | translate }}: <input ng-model="postalCode" placeholder="e.g. 105"></p>
+    <p>{{ 'CITY' | translate }}: <input ng-model="city" placeholder="e.g. 台北市"></p>
+
+    <p>{{ 'PHONE' | translate }}: <input ng-model="phone"></p>
+
+    <button ng-click="addDoctor()">{{ 'ADD_DOCTOR' | translate }}</button>
+</div>

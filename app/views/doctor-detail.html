@@ -1,0 +1,20 @@
+<div class="health">
+    <p><a href="#/doctors">{{ 'GO_BACK' | translate }}</a></p>
+
+    <h1>{{doctor.name}}</h1>
+
+    <p>
+        {{doctor.type | doctorType}} <br>
+        {{doctor.address.street}} <br>
+        {{doctor.address.postalCode}} {{doctor.address.city}} <br>
+        {{doctor.phone}}
+    </p>
+
+    <p>{{ 'COMMENT' | translate }}: <input ng-model="comment"><button ng-click="addComment()">{{ 'LEAVE_COMMENT' | translate }}</button></p>
+
+    <p ng-if="comments.length > 0">{{ 'COMMENTS_LIST' | translate }}:</p>
+    <ul>
+        <li ng-repeat="comment in comments">{{comment.text}}</li>
+    </ul>
+
+</div>

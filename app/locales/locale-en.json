@@ -1,0 +1,22 @@
+{
+  "DOCTOR_SEARCH": "Doctor search",
+  "HAVENT_FOUND": "Haven't found what you are looking for?",
+  "ADD_DOCTOR": "Add doctor",
+  "WHAT": "What",
+  "AND": "and",
+  "WHERE": "Where",
+  "GO_BACK": "Go back to results",
+  "NAME": "Name",
+  "TYPE": "Type",
+  "STREET": "Street",
+  "POSTAL_CODE": "Postal code",
+  "CITY": "City",
+  "CHINESE_ADDRESS": "Please write the address in Chinese, so it will be stored in a unified way.",
+  "COMMENT": "Comment",
+  "LEAVE_COMMENT": "Leave comment",
+  "COMMENTS_LIST": "Comments list",
+  "RESULT_LIST": "Result list",
+  "PHONE": "Phone",
+  "BUTTON_LANG_ZH": "中文",
+  "BUTTON_LANG_EN": "English"
+}

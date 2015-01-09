@@ -1,0 +1,22 @@
+{
+  "DOCTOR_SEARCH": "找醫生",
+  "HAVENT_FOUND": "找不到醫生嗎?",
+  "ADD_DOCTOR": "加醫生",
+  "WHAT": "分類",
+  "AND": "和",
+  "WHERE": "在哪裡",
+  "GO_BACK": "回去",
+  "NAME": "名字",
+  "TYPE": "分類",
+  "STREET": "地址",
+  "POSTAL_CODE": "郵編",
+  "CITY": "城市",
+  "CHINESE_ADDRESS": "請用中文寫地址",
+  "COMMENT": "意見",
+  "LEAVE_COMMENT": "加意見",
+  "COMMENTS_LIST": "意見表",
+  "RESULT_LIST": "結果表",
+  "PHONE": "電話",
+  "BUTTON_LANG_ZH": "中文",
+  "BUTTON_LANG_EN": "English"
+}
